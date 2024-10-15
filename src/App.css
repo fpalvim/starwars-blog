@@ -1,0 +1,229 @@
+* {
+    font-family: Star Wars;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: #ffe81f;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+}
+
+a:hover {
+    color: #786c03;
+}
+
+nav {
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    background-color: #ffe81f;
+    opacity: 80%;
+    max-width: 100vw;
+}
+
+.site-icon {
+    font-size: 30px;
+    margin-right: 15px;
+}
+
+.search-icon {
+    font-size: 20px;
+}
+
+.dropdown-menu {
+    background-color: #ffe81f;
+}
+
+.cards {
+    border: solid 2px #ffe81f;
+    /* max-width: 100vw; */
+    margin-bottom: 2.5rem;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: space-between; */
+    background-color: #1b1a1a;
+    padding: 1rem;
+    /* height: 100%; */
+    /* flex-basis: calc(30%); */
+    /* box-sizing: border-box; */
+}
+
+.cards-content-holder {
+    overflow: hidden;
+    flex-grow: 1;
+}
+
+.cards-header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.cards-img-item {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.cards-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+}
+
+.cards-title {
+    width: 100%;
+    max-width: 100%;
+}
+
+.cards-footer span {
+    margin: 10px;
+    font-size: 30px;
+    color: red;
+    text-shadow: 2px 2px 5px red;
+    transition: 0.5s;
+}
+
+.cards h3 {
+    font-size: clamp(14px, 2vw, 18px);
+    margin-top: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+.cards button {
+    background-color:  #ffe81f;
+    color: black;
+    transition: 0.5s;
+    padding: .4rem;
+}
+
+.cards button:hover {
+    background-color: #786c03;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    max-width: 100vw;
+}
+
+.home-container {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    text-align: center;
+    height: 100vh;
+}
+
+.home-container img {
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+    max-width: 100vw;
+}
+
+.info-card {
+    border: solid 2px #ffe81f;
+    width: 350px;
+    margin-bottom: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #1b1a1a;
+    padding: 1rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.info-card img {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;    
+    margin-bottom: 1rem;
+}
+
+.info-card-text div {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.planet-info-card {
+    border: solid 2px #ffe81f;
+    width: 350px;
+    margin-bottom: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #1b1a1a;
+    padding: 1rem;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+#navbarSupportedContent li {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+}
+
+.dropdown-menu {
+    width: auto;
+    min-width: 200px;
+    max-width: 1000px;
+}
+
+.dropdown-menu li {
+    display: flex;
+    justify-content: space-between;
+}
+
+#add-to-favorite:hover {
+    color: green;
+    transition: 1s;
+}
+
+.navigate-pages-bar {
+    background-color: #1b1a1a;
+    color: #ffe81f;
+    transition: 0.5s;
+    padding: .4rem;
+    display: flex;
+    justify-content: center;
+}
+
+.navigate-pages-button {
+    background-color:  #ffe81f;
+    color: black;
+    transition: 0.5s;
+    padding: .4rem;
+}
+
+.navigate-pages-button:hover {
+    background-color: #786c03;
+}
+
+.current-page-index {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: .4rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
